@@ -1,0 +1,85 @@
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+	color: #fff;
+  width: 1200px;
+}
+
+.welcome-section {
+  background: url('../images/bg.png') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  border: 40px solid #fff;
+}
+
+.content {
+  max-width: 500px;
+  align-self: center;
+  order: 2;
+}
+
+.title {
+	font-size: 50px;
+  text-align: center;
+  font-weight: none;
+}
+
+span {
+	font-weight: bold;
+}
+
+.subtitle {
+	font-size: 24px;
+  text-align: center;
+  font-weight: none;
+  margin: 20px auto;
+}
+
+.btn {
+	border: 1px solid #fff;
+	border-radius: 30px;
+	padding: 8px 40px;
+	font-size: 14px;
+  display: block;
+  margin: 30px auto;
+  text-align: center;
+  max-width: 150px;
+}
+
+.arrow-btn {
+  width: 27px;
+  height: 53px;
+  border: none;
+  align-self: center;
+  cursor: pointer;
+}
+
+.arrow-left {
+  background: url("../images/left-arrow.png") no-repeat;
+  margin-left: 30px;
+  order: 1;
+}
+
+.arrow-right {
+  background: url("../images/right-arrow.png") no-repeat;
+  margin-right: 30px;
+  order: 3;
+}
+
+.arrow-down {
+  background: #fff url("../images/bottom-arrow.png") no-repeat;
+  width: 28px;
+  height: 15px;
+  border: none;
+  position: absolute;
+  left: 50%;
+  margin-left: -14px;
+  bottom: 30px;
+}

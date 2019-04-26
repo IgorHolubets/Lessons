@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	text-align: center;
+	background: orange;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.form-box {
+	max-width: 600px;
+	background-color: yellow;
+	margin: 50px auto;
+}
+
+.form-control {
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+.form-control-name {
+	width: 30%;
+	float: left;
+	text-align: right;
+	padding-right: 20px;
+	
+}
+
+.radio-groups {
+	float: left;
+	width: 70%;
+}
+
+label {
+	display: block;
+}
+
+.submit {
+	float: right;
+	width: 70%;
+	margin-bottom: 30px;
+}

@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	color: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 0 15px;
+    display: flex;
+}
+
+.left {
+	width: 42%;
+	margin-right: -5px;
+}
+
+.right {
+	width: 58%;
+	margin-left: -5px;
+}
+
+.row {
+	margin-left: -15px;
+    margin-right: -15px;
+    margin: 5px;
+}
+
+.row-flex {
+	display: flex;
+}
+
+.col-flex-blue {
+	width: 50%;
+	margin: 0 3px;
+	display: flex;
+	position: relative;
+}
+
+.blue {
+	background: blue;
+	height: 123px;
+}
+
+.col-flex-red {
+	width: 33.33%;
+	margin: 0 3px;
+	display: flex;
+	position: relative;
+}
+
+.red {
+	background: red;
+	height: 80px;
+}
+
+span {
+	position: absolute;
+	bottom: 7px;
+	right: 13px;
+}
