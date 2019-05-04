@@ -1,0 +1,33 @@
+.text {
+      font-size: 20px;
+      color: #5e5e5e;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    .text:after, .text:before {
+      content: '"';
+      font-size: 30px;
+      color: red;
+      font-family: 'Lato', sans-serif;
+    }
+
+    .fab {
+      font-size: 20px;
+      color: #5c5c5c;
+    }
+
+    .fa-youtube:hover {
+      color: red;
+    }
+
+    .fa-facebook:hover {
+      color: #0c56c6;
+    }
+
+    .fa-pinterest:hover {
+      color: green;
+    }
+
+    .fa-instagram:hover {
+      color: deeppink;
+    }
