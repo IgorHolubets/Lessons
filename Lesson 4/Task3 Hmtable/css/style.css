@@ -1,0 +1,13 @@
+table{
+    border-spacing:2px;
+    width:610px; 
+    height:300px;
+}
+.numbers{
+    color: white;
+    padding-left: 100px; 
+}
+td{
+    background-color: #2b3e50;
+    vertical-align: bottom;
+}
