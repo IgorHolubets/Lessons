@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+ 	margin: 0;
+  padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 100px auto;
+	padding: 0 20px;
+}
+
+.block-1, .block-2 {
+  position: relative;
+	border: 1px solid black;
+}
+
+.block-1 {
+	height: 150px;
+	background: #ccc;
+  margin-bottom: 20px;
+}
+
+ .block-2 {
+ 	height: 100px;
+	background: #5d5d5d;
+  margin-bottom: 10px;
+ }
+
+span {
+	position: absolute;
+	bottom: 1px;
+	right: 6px;
+	color: #fff;
+	font-size: 30px;
+}
