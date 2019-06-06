@@ -1,0 +1,58 @@
+/* ПРАКТИКА № 1::::::::::::: */
+
+.block {
+	width: 300px;
+	height: 200px;
+	border: 1px solid blue;
+	margin: 80px auto;
+	box-shadow: 1px 1px 1px black,
+              inset 2px 3px 5px rgba(0,0,0,0.3),
+              inset -2px -3px 5px rgba(255,255,255,0.5);
+    background-image: linear-gradient(to right, yellow, violet, blue);
+    transform: rotate(-30deg);
+    color: #fff;
+  	transition: all 1s ease-in-out;
+}
+
+
+.block:hover {
+  background: green;
+  transition: all 2s;
+}
+
+
+
+/* ПРАКТИКА № 2:::::::::::::::::::: */
+
+.box {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+  background: red;
+    animation-name: change-translate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+ }
+ 
+ @keyframes change-translate {
+
+     0% {
+         transform: rotate(0deg);
+     }
+     25% {
+         transform: rotate(25deg);
+     }
+    50% {
+        transform: rotate(50deg);
+     }
+    75% {
+         transform: rotate(75deg);
+     }
+     100% {
+         transform: rotate(100deg);
+     }
+ }
