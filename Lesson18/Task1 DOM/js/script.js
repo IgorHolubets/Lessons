@@ -1,11 +1,11 @@
-//1  ДОМАШКА ДО УРОКУ №18::::::::
+//1
       
     console.log(document.querySelector('ul'));
     console.log(document.querySelectorAll('li')[1]);        //або так:::  
     console.log(document.body.getElementsByTagName('li')[1]);
 
 
-    //2 ДОМАШКА ДО УРОКУ №18::::::
+    //2
    
     console.log(document.body.getElementsByClassName('list'));
     console.log(document.body.getElementsByTagName('li')[1].innerHTML = 'JS');
@@ -14,7 +14,7 @@
 
 
 
-    //3 ДОМАШКА ДО УРОКУ №18::::
+    //3
 
     var paragraph = document.querySelector('.text');
     if (paragraph.classList.contains('text')) {
@@ -26,8 +26,7 @@
 
 
     
-   //4 ДОМАШКА ДО УРОКУ №18::::
-   //ДОДАТИ В СПИСОК 5 ЕЛЕМЕНТІВ LI З ТЕКСТОМ ВІД 1 ДО 5::::
+   // Add 5 elements
     
     var ul = document.querySelector('ul');
     for (var i = 1; i < 6; i++) {

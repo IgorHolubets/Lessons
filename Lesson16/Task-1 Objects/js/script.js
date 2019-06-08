@@ -1,3 +1,4 @@
+//FullName
 var skill = {
   name: "html",
   level: 5,

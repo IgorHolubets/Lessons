@@ -1,4 +1,4 @@
-//ПАРНІ ВИПАДКОВІ ЧИСЛА+++++++
+//Random
 function myRandom (min, max) {
 return Math.floor(Math.random() * (max -min + 1) ) + min;}
 var rand = myRandom(0, 10);
@@ -11,18 +11,15 @@ for (var i = 2; i <10; i++) {
 
 
 
-//РЯДОК З ВЕЛИКОЮ ЛІТЕРОЮ В КОЖНОМУ СЛОВІ
+//association array
 var arr = ['lorem ', 'ipsum ', 'is', 'simply', 'dummy'];
  for (var i = 0; i <arr.length; i++) {
    newArr = arr[i][0].toUpperCase() + arr[i].slice(1);}
-// var rest = arr[i].slice(1);
-//arr2 = newArr + rest;}
    var result = arr.join(' ');
 console.log(result);
 
 
-
-//ПОРІВНЯННЯ РЯДКІВ І ПОВЕРНЕННЯ ДОВШОГО++++++++++++
+//comparison strings
 str1 = 'lorem ipsum is simply dummy';
 str2 = 'Please visit Microsoft!';
 function count() {
