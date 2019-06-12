@@ -32,27 +32,18 @@
     height: 150px;
     margin: 20px;
   background: red;
-    animation-name: change-translate;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: spin;
+    animation-duration: 2s;
+    /* animation-iteration-count: infinite;
+    animation-direction: alternate; */
  }
  
- @keyframes change-translate {
+ @keyframes spin {
 
-     0% {
-         transform: rotate(0deg);
-     }
-     25% {
-         transform: rotate(25deg);
-     }
-    50% {
-        transform: rotate(50deg);
-     }
-    75% {
-         transform: rotate(75deg);
-     }
-     100% {
-         transform: rotate(100deg);
-     }
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
  }

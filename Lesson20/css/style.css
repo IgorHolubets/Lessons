@@ -1,0 +1,99 @@
+.popup {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#myBtn {
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid  rgb(99, 54, 158); 
+    border-radius: 5px solid rgb(109, 18, 194);
+    background: blueviolet;
+    color: black;
+    padding: 5px;
+}
+
+#myBtn:hover {
+    background: rgb(78, 10, 143);
+    text-decoration: underline;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+}
+ 
+.close {
+    display: inline-block;
+    margin: 30px auto;
+    padding: 5px 11px;
+    color: rgb(230, 161, 32); 
+    font-size: 28px;
+    font-weight: bold;
+    border: 2px solid rgb(230, 161, 32); 
+    border-radius: 50%;
+}
+
+.close:hover {
+    border: 2px solid  rgb(7, 7, 7); 
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.popup-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: auto;
+    border: 1px solid #888;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opasity: 0;
+    }
+    to {
+        top: 0;
+        opasity: 1;
+    }
+}
+
+
+/* ------------------------------------------------------- */
+
+
+.someBox {
+    width: 150px;
+    height: 150px;
+    display: block;
+    cursor: pointer;
+}
+
+#box {
+    background-color: green;
+}
+
+#modalBox {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background-color: blue;
+    display: none;
+    cursor: pointer;
+}
