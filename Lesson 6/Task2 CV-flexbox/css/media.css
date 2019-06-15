@@ -1,0 +1,152 @@
+@media only screen and (max-width: 992px) {
+    h3 {
+        font-size: 14px;
+    }
+    
+    .header {
+        height: 8vh;
+    }
+
+    .menu-link {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        margin-right: 25px;
+    }
+
+    .main {
+        padding-bottom: 30px;
+    }
+
+    .about {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 13px;
+        color: #a0a0a0;
+        line-height: 20px;
+    }
+    
+    .info-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .button {
+        border: 1px solid #cc412f;
+        font-size: 12px;
+        padding: 6px 8px;
+    }
+
+    .box {
+        height: 55vh;
+        margin-top: 20px;
+    }
+    
+    h2 {
+        font-size: 20px;
+    }
+
+    .box-item {
+        height: 22vh;
+    }
+
+    .block {
+        height: 10vh;
+    }
+
+    .title {
+        font-size: 16px;
+    }
+
+    .data {
+        font-size: 14px;
+    }
+
+    .contact-info {
+        height: 13vh;
+    }
+
+    .contact-link {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .menu {
+		display: none;
+	}
+	
+	.menu-btn {
+		display: block;
+    }
+    
+    .content {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .main-btn {
+        margin: 0 auto;
+    }
+
+    .aside {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .block-content {
+        margin-top: 5px;
+    }
+    
+    .main {
+        flex-direction: column;
+        width: 100%;
+        padding-bottom: 20px
+    }
+
+    .photo {
+        flex: 1 1 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .photo img {
+        max-width: 80%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .about {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .info {
+        flex: 1 1 100%;
+    }
+
+    .info {
+        flex: 1 1 100%;
+        margin: 0 auto;
+    }
+
+    .info-text {
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .main {
+        height: 70vh;
+    }
+}
