@@ -1,0 +1,39 @@
+body {
+    background: blue;
+  }
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+}
+.row {
+    display: flex;
+}
+.box {
+    height: 150px;
+    margin: 2px;
+}
+.box1 {
+    background: yellow;
+    flex: 1 70%;
+}
+.box2 {
+    background: rgb(23, 23, 70);
+    flex: 1 30%;
+}
+.box3 {
+    background: rgb(23, 23, 70);
+    flex: 1 1 50%
+}
+.box4 {
+    flex: 1 1 50%;
+}
+.box5 {
+    background: yellow;
+    margin-bottom: 4px;
+}
+.box6 {
+    background: red;
+}
+.box-sm {
+    height: 73px;
+}
